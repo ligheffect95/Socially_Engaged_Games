@@ -1,2 +1,1 @@
-# Luke_Popadics_Website
-this will be my website
+# this is a blog entry? is it? is this just code?
