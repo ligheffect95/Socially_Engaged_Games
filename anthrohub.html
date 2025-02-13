@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Worlding Practices Archive</title>
+    <style>
+        :root {
+            --paper: #f8f5f0;
+            --ink: #3e352a;
+            --accent: #8a7b68;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.7;
+            color: var(--ink);
+            background: var(--paper);
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+        }
+
+        .archive-header {
+            border-bottom: 3px solid var(--accent);
+            padding-bottom: 1.5rem;
+            margin-bottom: 3rem;
+        }
+
+        nav {
+            margin: 1.5rem 0;
+        }
+
+        nav a {
+            color: var(--ink);
+            text-decoration: none;
+            margin-right: 2rem;
+            font-variant: small-caps;
+            font-size: 1.1em;
+            letter-spacing: 0.05em;
+        }
+
+        .fieldnote-card {
+            background: white;
+            padding: 2rem;
+            margin: 2.5rem 0;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            border-left: 4px solid var(--accent);
+        }
+
+        .metadata {
+            font-family: 'Courier New', monospace;
+            color: #666;
+            font-size: 0.9em;
+            margin: 1em 0;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .grid-item {
+            padding: 1.5rem;
+            background: white;
+            border: 1px solid #ddd;
+            transition: transform 0.2s;
+        }
+    </style>
+</head>
+<body>
+    <header class="archive-header">
+        <h1>Worlding Practices Collective</h1>
+        <p>An ethnographic archive of virtual world-making</p>
+        <nav>
+            <a href="index.html">Field Notes</a>
+            <a href="blog.html">Conversations</a>
+            <a href="methods.html">Practices</a>
+        </nav>
+    </header>
+
+    <div class="fieldnote-card">
+        <div class="metadata">Site: Digital/Physical Interface | Last Updated: 14 Feb 2025</div>
+        <h2>Welcome to the Archive</h2>
+        <p>This living repository documents situated practices of virtual world creation, following Clifford's concept of <em>"cultural poesis"</em> through:</p>
+        
+        <div class="grid-container">
+            <div class="grid-item">
+                <h3>Participatory Methods</h3>
+                <ul>
+                    <li>Co-design workshops</li>
+                    <li>Algorithmic pattern analysis</li>
+                </ul>
+            </div>
+            <div class="grid-item">
+                <h3>Critical Frameworks</h3>
+                <ul>
+                    <li>Procedural authorship</li>
+                    <li>Multi-sited ethnography</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
