@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cyber Games Collective</title>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>Cyber Games Blog</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
     <style>
         body {
             background: linear-gradient(45deg, #ff00ff, #00ffff);
@@ -18,30 +18,24 @@
             font-family: 'Orbitron', sans-serif;
             text-shadow: 0 0 10px #0ff;
         }
-        nav {
-            border-bottom: 3px solid #0ff;
-            padding-bottom: 15px;
-            margin-bottom: 30px;
+        .post {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 25px;
+            margin: 25px 0;
+            border: 2px solid #0ff;
+            box-shadow: 0 0 15px #0ff;
         }
         a {
             color: #ff00ff;
             text-decoration: none;
             margin-right: 25px;
-            font-size: 1.2em;
         }
         a:hover {
-            animation: blink 0.5s infinite;
+            color: #00ffff;
         }
-        @keyframes blink {
-            0% { color: #ff00ff; }
-            50% { color: #00ffff; }
-            100% { color: #ff00ff; }
-        }
-        .content-box {
-            background: rgba(0, 0, 0, 0.8);
-            padding: 30px;
-            border: 2px solid #0ff;
-            box-shadow: 0 0 20px #0ff;
+        .post-date {
+            color: #ff00ff;
+            font-family: 'Courier New', monospace;
         }
     </style>
 </head>
@@ -49,16 +43,27 @@
     <nav>
         <a href="index.html">⌂ HOME</a>
         <a href="blog.html">📝 BLOG</a>
-        <a href="#">🎮 DEMOS</a>
+        <a href="#">🔗 LINKS</a>
     </nav>
 
-    <div class="content-box">
-        <h1>🕹️ SOCIALLY ENGAGED GAMES COLLECTIVE</h1>
-        <p style="font-family: 'Press Start 2P', cursive; font-size: 0.8em;">// Experimental games for social change \\</p>
-        
-        <marquee behavior="scroll" direction="left" style="color:#ff00ff; margin: 20px 0;">
-            🔷 UNDER CONSTRUCTION 🔷 ENABLE FLASH PLAYER 🔷 VISIT MY NEOPETS 🔷
-        </marquee>
+    <div class="post">
+        <h2>🌐 WORLDS UNFOLDING: VIRTUAL WORLD MAKING REFLECTIONS</h2>
+        <p class="post-date">📅 POSTED: 02.14.2025 // 11:59 PM EST</p>
+        <p style="border-left: 3px solid #ff00ff; padding-left: 15px;">
+            <em>"I'm going to reflect on this zine once I'm done reading it..."</em>
+        </p>
+        <p style="color: #00ffff;">[//] TODO: Add webring links & guestbook script</p>
+    </div>
+
+    <div class="post">
+        <h2>🚧 UNDER CONSTRUCTION 🚧</h2>
+        <p class="post-date">📅 POSTED: 02.13.2025 // 12:00 AM EST</p>
+        <p>🛠️ This digital space is still being built. Check back soon for:</p>
+        <ul style="list-style-type: '➢ '; color: #ff00ff;">
+            <li>Game prototype demos</li>
+            <li>Zine PDF downloads</li>
+            <li>Webring integration</li>
+        </ul>
     </div>
 </body>
 </html>
