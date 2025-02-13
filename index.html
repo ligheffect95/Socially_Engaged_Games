@@ -3,20 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Socially Engaged Games</title>
+    <title>Cyber Games Collective</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Press+Start+2P&display=swap" rel="stylesheet">
     <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 40px auto; max-width: 800px; padding: 0 20px; }
-        nav { margin-bottom: 30px; }
-        a { margin-right: 15px; }
+        body {
+            background: linear-gradient(45deg, #ff00ff, #00ffff);
+            color: #0ff;
+            font-family: 'Arial', sans-serif;
+            margin: 40px auto;
+            max-width: 800px;
+            padding: 20px;
+        }
+        h1, h2, nav a {
+            font-family: 'Orbitron', sans-serif;
+            text-shadow: 0 0 10px #0ff;
+        }
+        nav {
+            border-bottom: 3px solid #0ff;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+        }
+        a {
+            color: #ff00ff;
+            text-decoration: none;
+            margin-right: 25px;
+            font-size: 1.2em;
+        }
+        a:hover {
+            animation: blink 0.5s infinite;
+        }
+        @keyframes blink {
+            0% { color: #ff00ff; }
+            50% { color: #00ffff; }
+            100% { color: #ff00ff; }
+        }
+        .content-box {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 30px;
+            border: 2px solid #0ff;
+            box-shadow: 0 0 20px #0ff;
+        }
     </style>
 </head>
 <body>
     <nav>
-        <a href="index.html">Home</a>
-        <a href="blog.html">Blog</a>
+        <a href="index.html">⌂ HOME</a>
+        <a href="blog.html">📝 BLOG</a>
+        <a href="#">🎮 DEMOS</a>
     </nav>
-    
-    <h1>Welcome to Socially Engaged Games</h1>
-    <p>Exploring games as tools for social change and community engagement.</p>
+
+    <div class="content-box">
+        <h1>🕹️ SOCIALLY ENGAGED GAMES COLLECTIVE</h1>
+        <p style="font-family: 'Press Start 2P', cursive; font-size: 0.8em;">// Experimental games for social change \\</p>
+        
+        <marquee behavior="scroll" direction="left" style="color:#ff00ff; margin: 20px 0;">
+            🔷 UNDER CONSTRUCTION 🔷 ENABLE FLASH PLAYER 🔷 VISIT MY NEOPETS 🔷
+        </marquee>
+    </div>
 </body>
 </html>
